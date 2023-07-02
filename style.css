@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  background-color: blueviolet;
+  /* width : clamp(min, val, max) Responsive*/
+  width: clamp(105px, 55%, 220px);
+  height: 20rem;
+}
